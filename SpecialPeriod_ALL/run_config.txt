@@ -1,0 +1,6 @@
+Seed: 2620
+Models: ['ARIMA', 'Bi-RNN', 'Bi-GRU', 'Bi-LSTM', 'PatchTST', 'Mamba', 'SNN']
+Markets: ['SP500', 'HSI']
+Periods: ['2008_Financial_Crisis', '2010_Euro_Debt_Crisis', '2015_China_Crash', '2018_Trade_War', '2020_COVID_Crash', '2022_Rate_Hike', '2023_AI_Wave']
+Seq Lens: [30, 60, 90, 120, 252]
+Horizons: [1, 5, 10]
